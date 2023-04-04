@@ -1,1 +1,25 @@
 @import url(../vendor/normalize.css);
+
+.page {
+    background-color: #2A2C2F;
+    max-width: 1280px;
+}
+
+.header {
+}
+
+.header__logo {
+
+}
+
+.header__title {
+    color: #ffffff
+}
+
+.header__subtitle {
+    color: #ffffff
+}
+
+.header__image {
+
+}
