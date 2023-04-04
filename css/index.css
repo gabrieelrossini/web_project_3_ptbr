@@ -2,10 +2,16 @@
 
 .page {
     background-color: #2A2C2F;
-    max-width: 1280px;
+    
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 80px; 
 }
 
 .header__logo {
@@ -13,13 +19,20 @@
 }
 
 .header__title {
-    color: #ffffff
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 96px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .header__subtitle {
-    color: #ffffff
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
 }
 
 .header__image {
-
 }
