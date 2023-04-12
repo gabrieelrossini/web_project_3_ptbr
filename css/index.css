@@ -1,14 +1,42 @@
+section {
+    border: 1px solid #ffffff;
+}
+
+header {
+    border: 1px solid green;
+}
+
+li {
+    border: 1px solid blueviolet;
+}
+
+footer {
+    border: 1px solid yellow;
+}
+
 @import url(../vendor/normalize.css);
+
+/**
+* background para a página
+*/
 
 .page {
     background-color: #2A2C2F;
     
 }
 
+/**
+* definição de fontes como um todo no projeto (excluindo a class artist)
+*/
+
 .text {
     font-family: 'Inter', sans-serif;
     color: #ffffff;
 }
+
+/**
+* definições header
+*/
 
 .header {
     display: flex;
@@ -36,4 +64,42 @@
 }
 
 .header__image {
+
 }
+
+/**
+* definições main
+*/
+
+
+/**
+* definições section beuys
+*/
+
+/**
+* definições section photos
+*/
+
+/**
+* definições ul table
+*/
+
+.table {
+    list-style: none;
+}
+
+/**
+* definições section places
+*/
+
+/**
+* definições ul place
+*/
+
+.place {
+    list-style: none;
+}
+
+/**
+* definições footer
+*/
