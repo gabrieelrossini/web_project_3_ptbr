@@ -5,6 +5,11 @@
     
 }
 
+.text {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -19,16 +24,12 @@
 }
 
 .header__title {
-    font-family: 'Inter', sans-serif;
-    color: #ffffff;
     font-size: 96px;
     text-align: center;
     font-weight: bold;
 }
 
 .header__subtitle {
-    font-family: 'Inter', sans-serif;
-    color: #ffffff;
     font-size: 30px;
     text-align: center;
     font-weight: normal;
