@@ -1,3 +1,5 @@
+
+
 section {
     border: 1px solid #ffffff;
 }
@@ -19,6 +21,7 @@ footer {
 /**
 * background para a página
 */
+
 
 .page {
     background-color: #2A2C2F;
@@ -64,7 +67,7 @@ footer {
 }
 
 .header__image {
-
+    max-width: 100%;
 }
 
 /**
@@ -103,3 +106,39 @@ footer {
 /**
 * definições footer
 */
+
+.footer {
+
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../images/img-footer.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 5%;
+    align-items: center;
+}
+
+.footer__title {
+    font-size: 6vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer__text {
+    font-weight: normal;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.footer__button {
+    background-color: #0278FE;
+    width: 191px;
+    height: 48px;
+    font-size: 18px;
+}
