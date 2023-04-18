@@ -24,8 +24,7 @@ footer {
 
 
 .page {
-    background-color: #2A2C2F;
-    
+    background-color: #2A2C2F;   
 }
 
 /**
@@ -119,7 +118,6 @@ footer {
     text-align: end;
     max-width: 720px;
     margin: 0;
-    line-height: 1;
 }
 
 .beuys__text {
@@ -146,7 +144,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 16px;
+    grid-gap: 16px;
     padding: 6vh;
     overflow: hidden;
 }
@@ -161,7 +159,8 @@ footer {
 */
 
 .places {
-
+    display: flex;
+    justify-content: center;
 }
 
 /**
@@ -169,14 +168,26 @@ footer {
 */
 
 .place {
-    list-style: none;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 20px;
 }
 
 .place__photo {
+}
 
+.place__button {
+    background-color: #0278FE;
+    font-size: 18px;
+    max-width: 355px;
+    height: 48px;
 }
 
 .place__title {
+    
+}
+
+.place__article {
 
 }
 
@@ -185,14 +196,10 @@ footer {
 }
 
 .place__name {
-
+    
 }
 
 .place__text {
-
-}
-
-.place__button {
     
 }
 
