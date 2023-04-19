@@ -159,8 +159,7 @@ footer {
 */
 
 .places {
-    display: flex;
-    justify-content: center;
+   
 }
 
 /**
@@ -168,39 +167,40 @@ footer {
 */
 
 .place {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .place__photo {
+    grid-column: 1;
 }
 
 .place__button {
     background-color: #0278FE;
     font-size: 18px;
-    max-width: 355px;
+    width: 355px;
     height: 48px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    grid-column: 1;
 }
 
 .place__title {
-    
+    grid-column: 1;
 }
 
-.place__article {
-
-}
 
 .place__artist {
-
+    grid-column: 2;
 }
 
-.place__name {
-    
+.place__artist-name {
+    grid-column: 2;
 }
 
 .place__text {
-    
+      grid-column: 2;
 }
 
 /**
@@ -241,4 +241,7 @@ footer {
     width: 191px;
     height: 48px;
     font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
 }
