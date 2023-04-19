@@ -172,7 +172,7 @@ footer {
 }
 
 .place__photo {
-    grid-column: 1;
+    max-width: 460px;
 }
 
 .place__button {
@@ -183,24 +183,24 @@ footer {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    grid-column: 1;
+    
 }
 
 .place__title {
-    grid-column: 1;
+    
 }
 
 
 .place__artist {
-    grid-column: 2;
+    
 }
 
 .place__artist-name {
-    grid-column: 2;
+    
 }
 
 .place__text {
-      grid-column: 2;
+    max-width: 484px;
 }
 
 /**
