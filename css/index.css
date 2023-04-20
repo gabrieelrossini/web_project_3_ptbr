@@ -1,21 +1,4 @@
 
-
-section {
-    border: 1px solid #ffffff;
-}
-
-header {
-    border: 1px solid green;
-}
-
-li {
-    border: 1px solid blueviolet;
-}
-
-footer {
-    border: 1px solid yellow;
-}
-
 @import url(../vendor/normalize.css);
 
 /**
@@ -24,17 +7,11 @@ footer {
 
 
 .page {
-    background-color: #2A2C2F;   
+    background-color: #2A2C2F;
+    max-width: 1280px;
+    margin: auto;  
 }
 
-/**
-* definição de fontes como um todo no projeto (excluindo a class artist)
-*/
-
-.text {
-    font-family: 'Inter', sans-serif;
-    color: #ffffff;
-}
 
 /**
 * definições header
@@ -55,32 +32,30 @@ footer {
 }
 
 .header__title {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
     font-size: 96px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 900;
     margin: 0;
     max-width: 720px;
 }
 
 .header__subtitle {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
     font-size: 30px;
     text-align: center;
-    font-weight: normal;
+    font-weight: 400;
     max-width: 720px;
 }
 
 .header__image {
     max-width: 100%;
+    min-width: 320px;
     padding-top: 3.5vh;
 }
 
-/**
-* definições main
-*/
-
-.content {
-
-}
 
 /**
 * definições section beuys
@@ -97,34 +72,42 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 55%;
 }
 
 .beuys__title {
     font-size: 54px;
-    font-weight: bold;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    max-width: 1080px;
 }
 
 .beuys__subtitle {
     font-size: 24px;
-    font-weight: normal;
+    font-weight: 400;
     max-width: 720px;
     margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
 }
 
 .beuys__author {
     font-size: 24px;
-    font-weight: normal;
+    font-weight: 400;
     text-align: end;
     max-width: 720px;
     margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
 }
 
 .beuys__text {
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 400;
     max-width: 720px;
     padding-top: 3vh;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
 }
 
 /**
@@ -142,16 +125,16 @@ footer {
 .table {
     list-style: none;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 16px;
-    padding: 6vh;
     overflow: hidden;
 }
 
 .table__photo {
-    width: 100%;
-    height: 100%;;
+    max-width: 284px;
+    max-height: 213px;
+    
 }
 
 /**
@@ -159,48 +142,78 @@ footer {
 */
 
 .places {
-   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   overflow: hidden;
 }
-
-/**
-* definições ul place
-*/
 
 .place {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    column-gap: 40px;
 }
 
+.place__title {
+    font-size: 72px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    max-width: 484px;
+}
+
+
 .place__photo {
-    max-width: 460px;
+    min-width: 320px;
+    grid-row: 2;
+}
+
+.place__artist {
+    grid-column: 2;
+}
+
+.place__artist-title {
+    color: #aaaaaa;
+    font-weight: 400;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.place__artist-name {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.place__text {
+    grid-column: 2;
+
+}
+
+.place__text-content {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .place__button {
     background-color: #0278FE;
-    font-size: 18px;
     width: 355px;
     height: 48px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    
 }
 
-.place__title {
-    
-}
-
-
-.place__artist {
-    
-}
-
-.place__artist-name {
-    
-}
-
-.place__text {
-    max-width: 484px;
+.place__button-text {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /**
@@ -208,7 +221,9 @@ footer {
 */
 
 .footer {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer__content {
@@ -226,14 +241,17 @@ footer {
 
 .footer__title {
     font-size: 72px;
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
 }
 
 .footer__text {
-    font-weight: normal;
-    text-align: center;
+    font-weight: 400;
     font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
 }
 
 .footer__button {
@@ -241,7 +259,18 @@ footer {
     width: 191px;
     height: 48px;
     font-size: 18px;
+    font-weight: 600;
     border-radius: 4px;
     border: none;
     cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
+.footer__author {
+    align-self: center;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
 }
