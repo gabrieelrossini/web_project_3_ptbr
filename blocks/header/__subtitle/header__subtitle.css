@@ -1,0 +1,8 @@
+.header__subtitle {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    max-width: 720px;
+}

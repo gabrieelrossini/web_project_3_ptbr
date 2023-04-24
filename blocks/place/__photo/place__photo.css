@@ -1,0 +1,4 @@
+.place__photo {
+    min-width: 320px;
+    grid-row: 2;
+}
