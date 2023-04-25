@@ -4,5 +4,21 @@
     grid-template-rows: repeat(3, auto);
     column-gap: 40px;
     row-gap: 48px;
-    max-width: 1080px;
+    max-width: 987px;
+}
+
+@media screen and (max-width: 1020px) {
+    .place {
+        max-width: 768px;
+        column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .place {
+        max-width: 320px;
+        display: grid;
+        justify-items: center;
+        row-gap: 30px;
+    }
 }

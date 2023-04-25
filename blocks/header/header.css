@@ -5,4 +5,5 @@
     align-items: center;
     padding-top: 5vh;
     padding-bottom: 5vh;
+    overflow: hidden;
 }

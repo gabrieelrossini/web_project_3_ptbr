@@ -5,3 +5,16 @@
     color: #ffffff;
     max-width: 1080px;
 }
+
+@media screen and (max-width: 1020px) {
+    .beuys__title {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .beuys__title {
+        max-width: 288px;
+        font-size: 32px;
+    }
+}

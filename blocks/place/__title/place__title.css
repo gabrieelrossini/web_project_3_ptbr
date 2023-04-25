@@ -3,4 +3,24 @@
     font-weight: 900;
     font-family: 'Inter', sans-serif;
     color: #ffffff;
+    max-width: 460px;
+    line-height: 76px;
+}
+
+@media screen and (max-width: 1020px) {
+    .place__title {
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .place__title {
+        max-width: 288px;
+        font-size: 32px;
+        grid-column: 1;
+        grid-row: 1;
+        line-height: 35px;
+    }
 }

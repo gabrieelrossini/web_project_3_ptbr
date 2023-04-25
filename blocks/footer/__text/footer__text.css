@@ -3,4 +3,16 @@
     font-size: 18px;
     font-family: 'Inter', sans-serif;
     color: #ffffff;
+    max-width: 280px;
+    height: 66px;
+    text-align: center;
+    margin: 0 auto 32px;
+    margin-top: 3vh;
+}
+
+@media screen and (max-width: 480px) {
+    .footer__text {
+        height: 48px;
+        font-size: 14px;
+    }
 }

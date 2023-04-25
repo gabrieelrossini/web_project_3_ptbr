@@ -1,4 +1,21 @@
 .place__photo {
-    min-width: 320px;
+    max-width: 460px;
+    max-height: 460px;
     grid-row: 2;
+}
+
+@media screen and (max-width: 1020px) {
+    .place__photo {
+        max-width: 340px;
+        max-height: 340px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .place__photo {
+        max-width: 320px;
+        max-height: 320px;
+        grid-row: 3;
+        grid-column: 1;
+    }
 }

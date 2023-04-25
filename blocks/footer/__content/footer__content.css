@@ -2,11 +2,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("../images/img-footer.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 100vh;
-    margin: 5%;
     align-items: center;
+    z-index: 1;
+    position: absolute;
+    margin-bottom: 6vh;
 }

@@ -2,4 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding-top: 10vh;  
+    max-width: 1184px;
+    position: relative;
+    margin: 0 48px;
 }

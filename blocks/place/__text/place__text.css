@@ -1,4 +1,22 @@
 .place__text {
     grid-column: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    max-width: 484px;
+    grid-row: 2/5;
+}
 
+@media screen and (max-width: 1020px) {
+    .place__text {
+        max-width: 365px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .place__text {
+        max-width: 288px;
+        grid-column: 1;
+        grid-row: 4;
+    }
 }

@@ -1,5 +1,21 @@
 .header__image {
-    max-width: 100%;
-    min-width: 320px;
+    max-width: 984px;
+    max-height: 615px;
     padding-top: 3.5vh;
+    filter: grayscale(100%);
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1020px) {
+    .header__image {
+        max-width: 768px;
+        max-height: 480px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header__image {
+        max-width: 320px;
+        max-height: 200px;
+    }
 }

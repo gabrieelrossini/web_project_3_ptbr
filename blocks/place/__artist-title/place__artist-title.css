@@ -4,4 +4,14 @@
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.2vh;
+    width: 58px;
+    hight: 15px;
+    line-height: 15px;
+    margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .place__artist-title {
+        max-width: 288px;
+    }
 }

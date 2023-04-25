@@ -14,3 +14,15 @@
     align-items: center;
     justify-content: center;
 }
+
+.place__button:hover {
+    background-color: #0063D2;
+}
+
+@media screen and (max-width: 480px) {
+    .place__button {
+        width: 288px;
+        font-size: 14px;
+        grid-column: 1;
+    }
+}
